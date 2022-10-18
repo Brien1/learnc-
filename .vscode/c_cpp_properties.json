@@ -1,17 +1,7 @@
 {
     "configurations": [
         {
-            "name": "macos-gcc-x64",
-            "includePath": [
-                "${workspaceFolder}/**"
-            ],
-            "compilerPath": "/usr/bin/gcc",
-            "cStandard": "${default}",
-            "cppStandard": "${default}",
-            "intelliSenseMode": "macos-gcc-x64",
-            "compilerArgs": [
-                ""
-            ],
+            "compileCommands": "${workspaceFolder}/_build/compile_commands.json",
             "configurationProvider": "ms-vscode.cmake-tools"
         }
     ],
